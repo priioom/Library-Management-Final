@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="LibraryManagement.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" >
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+	<!-- BOOTSTRAP STYLES-->
+    
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="../css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="../css/AdminSite.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+</head>
+<body>
+     
+           
+       <form runat="server">   
+    <div id="wrapper"  >
+         <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="adjust-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                                               <img style="height:70px;width:70px;" src="../images/library-icon-21.png" />
+
+                    </a>
+                    
+                </div>
+              
+                <span class="logout-spn" style="font-weight:normal" >
+                    <asp:Label ID="LblAdminUserName" runat="server" Text=""></asp:Label>
+                    <asp:Button ID="Admin" runat="server" CausesValidation="False" style="color:#21476A;" Text="Log out" OnClick="Admin_Click" />
+
+                </span>
+                  
+            </div>
+        </div>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" id="ControledItem" role="navigation" runat="server">
+            <div class="sidebar-collapse">
+                <ul class="nav" runat="server" >
+                 
+
+
+                    <li class="active-link text-center">
+                        <a href="AdminDashboard.aspx" >Dashboard </a>
+                    </li>
+                   
+
+                    <li class="text-center">
+                        <a href="AddArticle.aspx">Add A Article</a>
+                    </li>
+                    <li class="text-center">
+                        <a href="TeacherAccount.aspx">Create A Teacher Account</a>
+                    </li>
+
+
+                    <li class="text-center">
+                        <a href="AddEvent.aspx"">Create A Event </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="AddBook.aspx">Add A Book</a>
+
+                    </li>
+                </ul>
+                            </div>
+
+        </nav>
+
+       <asp:contentplaceholder id="Main"  runat="server" >
+    
+    
+       </asp:contentplaceholder>
+         <!-- /. PAGE WRAPPER  -->
+        </div>
+           </form>
+    <br/>
+    <br/>
+    <br/><br/>
+    <br/>
+    <br/>
+    <div class="footer">
+      
+    
+            <div class="row">
+                <div class="col-lg-12" >
+                   <p style="color:#fff;" class="text-center"> &copy;  2017 | Design by: All rights goes to Procrastinator community </p>
+                </div>
+            </div>
+     </div>
+          
+
+     <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="../js/bootstrap.min.js"></script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="js/custom.js"></script>
+    
+   
+</body>
+</html>
+

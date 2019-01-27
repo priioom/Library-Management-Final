@@ -1,0 +1,6 @@
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.EntityLayer.Entity\bin\Debug\Asp.LibraryManagement.EntityLayer.Entity.dll
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.EntityLayer.Entity\bin\Debug\Asp.LibraryManagement.EntityLayer.Entity.pdb
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.EntityLayer.Entity\obj\Debug\Asp.LibraryManagement.EntityLayer.Entity.csproj.CoreCompileInputs.cache
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.EntityLayer.Entity\obj\Debug\Asp.LibraryManagement.EntityLayer.Entity.dll
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.EntityLayer.Entity\obj\Debug\Asp.LibraryManagement.EntityLayer.Entity.pdb
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.EntityLayer.Entity\obj\Debug\Asp.LibraryManagement.EntityLayer.Entity.csprojResolveAssemblyReference.cache

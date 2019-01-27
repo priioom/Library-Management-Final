@@ -1,0 +1,10 @@
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\bin\Debug\Asp.LibraryManagement.DataLayer.Data.dll
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\bin\Debug\Asp.LibraryManagement.DataLayer.Data.pdb
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\bin\Debug\Asp.LibraryManagement.BusinessLayer.Business.dll
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\bin\Debug\Asp.LibraryManagement.EntityLayer.Entity.dll
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\bin\Debug\Asp.LibraryManagement.BusinessLayer.Business.pdb
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\bin\Debug\Asp.LibraryManagement.EntityLayer.Entity.pdb
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\obj\Debug\Asp.LibraryManagement.DataLayer.Data.csprojResolveAssemblyReference.cache
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\obj\Debug\Asp.LibraryManagement.DataLayer.Data.csproj.CoreCompileInputs.cache
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\obj\Debug\Asp.LibraryManagement.DataLayer.Data.dll
+G:\LibraryManagement\LibraryManagement\Asp.LibraryManagement.DataLayer.Data\obj\Debug\Asp.LibraryManagement.DataLayer.Data.pdb

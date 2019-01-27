@@ -1,0 +1,16 @@
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\LibraryManagement.dll.config
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\LibraryManagement.dll
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\LibraryManagement.pdb
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
+G:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.dll
+G:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Asp.LibraryManagement.EntityLayer.Entity.dll
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Asp.LibraryManagement.EntityLayer.Entity.pdb
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Asp.LibraryManagement.BusinessLayer.Business.dll
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Asp.LibraryManagement.BusinessLayer.Business.pdb
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Asp.LibraryManagement.DataLayer.Data.dll
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Asp.LibraryManagement.DataLayer.Data.pdb
+G:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csprojResolveAssemblyReference.cache
+G:\LibraryManagement\LibraryManagement\LibraryManagement\bin\AjaxControlToolkit.dll

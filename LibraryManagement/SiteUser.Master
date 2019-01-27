@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteUser.master.cs" Inherits="LibraryManagement.SiteUser" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head runat="server">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <title>Online Library Management</title>
+    <!--Let browser know website is optimized for mobile-->
+
+
+</head>
+<body>
+
+    <style>
+        .auto-style2 {
+            color: #003366;
+        }
+
+        .FU {
+            color: #2D2D30 !important;
+        }
+        .color{
+            color:purple; font-size:15px;
+        }
+    </style>
+
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="AOnlineLibrary" href="Home.aspx" runat="server" class="auto-style2" style="position: relative">
+                        <img style="height:70px;width:70px;" src="images/library-icon-21.png" />
+                        Online Library</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar ">
+                        <li><a class="FU" id="AHome" href="Home.aspx" runat="server">Home</a></li>
+                        <li><a class="FU" id="ABookList" href="BookList.aspx" runat="server">Book List</a></li>
+                        <li><a class="FU" id="ABookRequest" href="RequestBook.aspx" runat="server">Book Request</a></li>
+                        <li><a class="FU" id="AOnlineReservation" href="OnlineReservation.aspx" runat="server">Online Reservation <asp:Label CssClass="color"  runat="server"  ID="CartItem" Text="0"></asp:Label></a></li>
+                        <li><a class="FU" id="AContactUs" href="contact_us.aspx" runat="server">Contact Us</a></li>
+                        <li><a class="FU" id="AAboutUs" href="About_Us.aspx" runat="server">About Us</a></li>
+                        <li><a class="FU" id="AAddLecture" href="AddLecture.aspx" runat="server">Add Lecture</a></li>
+                        <li><a class="FU" id="ALectures" href="Lecture.aspx" runat="server">Lectures</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="user">
+                            <asp:Button ID="BtnLogout" CausesValidation="False" OnClick="BtnLogout_Click" runat="server" Text="Log Out" />
+                            <a href="#">
+                                <asp:Label ID="UserName" CssClass="auto-style2" runat="server" Text=""></asp:Label></a>
+                            <a class="FU" id="Register" style="font-weight:bold; font-size:20px; color:#003366 !important"  href="Register.aspx" runat="server">Register</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <asp:ContentPlaceHolder ID="Main" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="col-md-12" style="background-color: #6d7d8c;">
+            <div class="container">
+                <div class="col-md-3" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; color: #222222">
+                    <img src="~/images/cropped-seal-footer.png" class="img-responsive" runat="server" style="height: 120px;" alt="Responsive image" />
+                </div>
+                <div class="col-md-3" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; color: #222222">
+                    <p style="color: aliceblue">Sessions College</p>
+                    <p>Main Campus</p>
+                    <p>51 West Third Street, Suite E-301</p>
+                    <p>Tempe, AZ 85281</p>
+                    <br />
+                    <p style="color: aliceblue;">800-258-4115 (US)</p>
+                    <p style="color: aliceblue;">480-212-1704</p>
+                    <p>admissions@sessions.edu</p>
+                </div>
+                <div class="col-md-3" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; color: #222222;">
+                    <p style="color: aliceblue">Student Login</p>
+                    <p>Download Catalog</p>
+                    <p>Career Center</p>
+                    <p>Campus News</p>
+                    <p>Notes on Design</p>
+                    <br />
+                    <p style="color: aliceblue">
+                        FOLLOW US:<br />
+
+
+                        <a href="https://www.linkedin.com/" class="col-md-3" style="padding: 0px">
+                            <img src="~/images/linkedin.png" class="img-responsive" runat="server" alt="Responsive image" /></a>
+                        <a href="https://www.facebook.com/" class="col-md-3" style="padding: 0px">
+                            <img src="~/images/facebook.png" class="img-responsive" runat="server" alt="Responsive image" /></a>
+                    </p>
+                    <a class="col-md-3"></a>
+                    <a class="col-md-3"></a>
+
+                </div>
+                <div class="col-md-3" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; color: #222222;">
+                    <p style="color: aliceblue">PROGRAMS:</p>
+                    <p>Graphic Design </p>
+                    <p>Web Design </p>
+                    <p>Digital Media </p>
+                    <p>Illustration</p>
+                    <p>Advertising Design </p>
+                    <p>Digital Photography</p>
+                    <p>Fine Arts</p>
+                </div>
+            </div>
+        </div>
+        <footer class="col-md-12">
+            <p id="footer" class="text-center" style="color: black!important">
+                &copy; All Rights goes to Procrastinator Community.
+            </p>
+        </footer>
+
+    </form>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
